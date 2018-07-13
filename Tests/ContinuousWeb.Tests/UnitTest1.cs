@@ -10,7 +10,7 @@ namespace ContinuousWeb.Tests
         public void AboutPageTest()
         {
             var homeController = new HomeController();
-            var result = homeController.Contact();
+            var result = homeController.About();
         }
     }
 }
